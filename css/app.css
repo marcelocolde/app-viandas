@@ -1,0 +1,50 @@
+:root {
+    --primario: #660ef2;
+    --secundario: #ffb100;
+    --fuente:    'Roboto', sans-serif;
+}
+body {
+    font-family: var(--fuente);
+}
+.header {
+   background-color: var(--primario)!important;
+
+}
+
+.header h1 {
+    color: var(--secundario);
+    font-weight: 900;
+}
+.header p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.heading {
+    font-weight: 900;
+    color: var(--primario);
+}
+
+.seccion {
+    min-height: 1000px;
+    padding: 2rem;
+}
+
+#banner {
+    background: url('../img/comidas.jpg') no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+}
+
+.custom-height {
+    height: 400px;
+    
+}
+
+.estilo-mensaje {
+    height: 200px;
+}
+
+.text-success-dark {
+    color: #155e15; /* Este es un tono más oscuro de verde*/
+}
